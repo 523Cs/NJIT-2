@@ -59,7 +59,7 @@ function swapPhoto() {
 	dt[0].innerHTML = "Location: " + mImages[mCurrentIndex].date;
 	
 	mLastFrameTime = 0
-	mCurrentINdex += 1
+	mCurrentIndex += 1
 }
 
 // Counter for the mImages array
