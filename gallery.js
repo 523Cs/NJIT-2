@@ -108,7 +108,14 @@ $(document).ready( function() {
 	fetchJSON();
 	// This initially hides the photos' metadata information
 	// $('.details').eq(0).hide();
-	
+
+
+	//Come back to this!!!
+	$("#nextPhoto").position({
+		my: "right ",
+		at: "right center",
+		of: "#nav"
+	});
 });
 
 window.addEventListener('load', function() {
