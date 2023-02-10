@@ -53,6 +53,27 @@ function swapPhoto() {
 	mLastFrameTime = 0
 	mCurrentIndex += 1
 }
+function prevPhoto() {
+	if (mCurrentIndex >= mImages.length) {
+		mCurrentIndex = 0;
+	}
+	if (mCurrentIndex < 0) {
+		mCurrentIndex = mImages.length - 1;
+	}
+	//src is taking the photo and adding it to current index
+	document.getElementById('photo').src = mImages[mCurrentIndex].img;
+	var loc = document.getElementsByClassName('location');
+	loc[0].innerHTML = "Location: " + mImages[mCurrentIndex].location;
+
+	var des = document.getElementsByClassName('description');
+	des[0].innerHTML = "Location: " + mImages[mCurrentIndex].description;
+
+	var dt = document.getElementsByClassName('date');
+	dt[0].innerHTML = "Location: " + mImages[mCurrentIndex].date;
+
+	mLastFrameTime = 0
+	mCurrentIndex -= 1
+}
 
 // Counter for the mImages array
 var mCurrentIndex = 0;
