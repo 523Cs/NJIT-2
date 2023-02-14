@@ -1,0 +1,82 @@
+{
+    "images": [
+        {
+            "imgPath": "img/abbath.jpg",
+            "imgLocation": "Olve Eikemo",
+            "description": "49",
+            "date": "1973"
+        },
+        {
+            "imgPath": "img/frost.jpg",
+            "imgLocation": "Frost",
+            "description": "49",
+            "date": "1973"
+        },
+        {
+            "imgPath": "img/bathory.jpg",
+            "imgLocation": "Thomas Börje Forsberg",
+            "description": "Dead",
+            "date": "1966"
+        },
+        {
+            "imgPath": "img/greece.jpg",
+            "imgLocation": "Greece",
+            "description": "Greek coastline",
+            "date": "01/04/2016"
+        },
+        {
+            "imgPath": "img/hungary.jpg",
+            "imgLocation": "Hungary",
+            "description": "Budapest skyline",
+            "date": "01/05/2016"
+        },
+        {
+            "imgPath": "img/india.jpg",
+            "imgLocation": "India",
+            "description": "Taj Mahal",
+            "date": "01/06/2016"
+        },
+        {
+            "imgPath": "img/italy.jpg",
+            "imgLocation": "Italy",
+            "description": "Venice",
+            "date": "01/07/2016"
+        },
+        {
+            "imgPath": "img/japan.jpg",
+            "imgLocation": "Japan",
+            "description": "Hirosaki Castle",
+            "date": "01/08/2016"
+        },
+        {
+            "imgPath": "img/korea.jpg",
+            "imgLocation": "South Korea",
+            "description": "Seoul",
+            "date": "01/09/2016"
+        },
+        {
+            "imgPath": "img/norway.jpg",
+            "imgLocation": "Norway",
+            "description": "Countryside mountains",
+            "date": "01/10/2016"
+        },
+        {
+            "imgPath": "img/witzerland.jpg",
+            "imgLocation": "Switzerland",
+            "description": "Lake castle",
+            "date": "01/11/2016"
+        },
+        {
+            "imgPath": "img/thailand.jpg",
+            "imgLocation": "Thailand",
+            "description": "Beachline",
+            "date": "01/12/2016"
+        },
+        {
+            "imgPath": "img/turkey.jpg",
+            "imgLocation": "Turkey",
+            "description": "Istanbul",
+            "date": "01/13/2016"
+        }
+    ]
+}

@@ -42,13 +42,13 @@ function swapPhoto() {
 //src is taking the photo and adding it to current index
 	document.getElementById('photo').src = mImages[mCurrentIndex].img;
 	var loc = document.getElementsByClassName('location');
-	loc[0].innerHTML = "Location: " + mImages[mCurrentIndex].location;
+	loc[0].innerHTML = "Name: " + mImages[mCurrentIndex].location;
 
 	var des = document.getElementsByClassName('description');
-	des[0].innerHTML = "Location: " + mImages[mCurrentIndex].description;
+	des[0].innerHTML = "Age: " + mImages[mCurrentIndex].description;
 
 	var dt = document.getElementsByClassName('date');
-	dt[0].innerHTML = "Location: " + mImages[mCurrentIndex].date;
+	dt[0].innerHTML = "Birth Year: " + mImages[mCurrentIndex].date;
 	
 	mLastFrameTime = 0
 	mCurrentIndex += 1
@@ -63,13 +63,13 @@ function prevPhoto() {
 	//src is taking the photo and adding it to current index
 	document.getElementById('photo').src = mImages[mCurrentIndex].img;
 	var loc = document.getElementsByClassName('location');
-	loc[0].innerHTML = "Location: " + mImages[mCurrentIndex].location;
+	loc[0].innerHTML = "Name: " + mImages[mCurrentIndex].location;
 
 	var des = document.getElementsByClassName('description');
-	des[0].innerHTML = "Location: " + mImages[mCurrentIndex].description;
+	des[0].innerHTML = "Age: " + mImages[mCurrentIndex].description;
 
 	var dt = document.getElementsByClassName('date');
-	dt[0].innerHTML = "Location: " + mImages[mCurrentIndex].date;
+	dt[0].innerHTML = "Birth Year: " + mImages[mCurrentIndex].date;
 
 	mLastFrameTime = 0
 	mCurrentIndex -= 1
@@ -89,7 +89,7 @@ var mJson;
 
 // URL for the JSON to load by default
 // Some options for you are: images.json, images.short.json; you will need to create your own extra.json later
-var mUrl = "https://api.npoint.io/a2a427005054ea24b4ae";
+var mUrl = 'extra.json';
 
 // part 2 slideshow 1 and 2
 function fetchJSON() {
