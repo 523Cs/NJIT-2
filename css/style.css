@@ -99,3 +99,13 @@ Make it animate nicely. You'll need CSS3 for this*/
 .rot270 {
 		transform: rotate(270deg);
 }
+$(document).ready(function() {
+		fetchJSON();
+
+		$('#nextPhoto').position({
+			my:'right bottom',
+			at:'right bottom',
+			of:'#nav'
+		})
+
+		
