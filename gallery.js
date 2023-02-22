@@ -119,28 +119,33 @@ function iterateJSON(mJson) {
 //You can optionally use the following function as your event callback for loading the source of Images from your json data (for HTMLImageObject).
 //@param A GalleryImage object. Use this method for an event handler for loading a gallery Image object (optional).
 function makeGalleryImageOnloadCallback(galleryImage) {
-	return function(e) {
+	return function (e) {
 		galleryImage.img = e.target;
 		mImages.push(galleryImage);
 	}
 }
 
-$(document).ready( function() {
+$(document).ready(function () {
 	fetchJSON();
+	$('#nextPhoto').position({
+		my: 'right bottom',
+		at: 'right bottom',
+		of: '#nav'
+	})
+
+	$("#nextPhoto").click(function () {
+		swapPhoto()
+	})
+	$("#prevPhoto").click(function () {
+		swapPhoto()
+	})
 	// This initially hides the photos' metadata information
 	// $('.details').eq(0).hide();
 
-
-	//Come back to this!!!
-	$("#nextPhoto").position({
-		my: "right ",
-		at: "right center",
-		of: "#nav"
-	});
 });
 
-window.addEventListener('load', function() {
-	
+window.addEventListener('load', function () {
+
 	console.log('window loaded');
 
 }, false);
